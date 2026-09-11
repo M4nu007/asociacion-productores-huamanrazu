@@ -140,7 +140,8 @@ padding:24px;
 margin:38px 0 0;
 box-shadow:0 12px 25px #001b1910}
 .photo-frame img{width:100%;
-aspect-ratio:1.65}
+height:260px;
+object-fit:cover}
 .photo-frame figcaption{font-size:12px;
 color:var(--green);
 padding-top:10px;
@@ -247,12 +248,13 @@ gap:22px}
 .gallery figure{margin:0;
 background:white}
 .gallery img{width:100%;
-aspect-ratio:1.45}
+height:220px;
+object-fit:cover}
 .gallery figcaption{padding:20px;
 font-size:14px}
 .gallery h3{font-size:1.2rem}
 .gallery .wide{grid-column:span 2}
-.gallery .wide img{aspect-ratio:2.8}
+.gallery .wide img{height:250px}
 .site-footer{background:var(--deep);
 color:#c5d6ce;
 padding:48px 0 24px;
@@ -326,7 +328,8 @@ padding:28px}
 .timeline h3{font-size:1.45rem}
 .timeline p{font-size:15px}
 .timeline img{width:100%;
-aspect-ratio:2.7;
+height:205px;
+object-fit:cover;
 margin-top:20px}
 .year{display:inline-block;
 padding:4px 8px;
@@ -339,7 +342,8 @@ margin-bottom:15px}
 grid-template-columns:1.25fr 1fr;
 gap:30px}
 .project-feature img{width:100%;
-aspect-ratio:1.6}
+height:360px;
+object-fit:cover}
 .technical{display:grid;
 grid-template-columns:1fr 1fr;
 gap:12px;
@@ -459,7 +463,7 @@ gap:15px}
 gap:16px}
 .gallery figure:last-child{grid-column:span 2}
 .gallery .wide{grid-column:span 1}
-.gallery .wide img{aspect-ratio:1.45}
+.gallery .wide img{height:175px}
 .gallery figcaption{padding:15px}
 .gallery h3{font-size:1.1rem}
 .footer-grid{grid-template-columns:1fr 1fr;
@@ -509,8 +513,7 @@ margin:20px 0;
 letter-spacing:-.03em}
 .campaign-poster>strong span{color:#d2b984}
 .campaign-poster img{width:100%;
-height:auto;
-aspect-ratio:auto;
+height:560px;
 object-fit:contain}
 .campaign-poster h3{color:#fff;
 margin-top:22px}
@@ -558,7 +561,8 @@ font-size:13px}
 background:var(--green);
 color:#fff}
 .sidebar-photo img{width:100%;
-aspect-ratio:1.5}
+height:230px;
+object-fit:cover}
 .sidebar-photo figcaption{padding:15px;
 font-size:13px;
 line-height:1.5}
@@ -662,6 +666,8 @@ padding:23px;
 gap:26px}
 .campaign-poster{max-width:430px;
 margin:auto}
+.campaign-poster img{height:auto;
+max-height:580px}
 .hero-strip .container{grid-template-columns:1fr 1fr;
 gap:22px}
 .hero-strip strong{font-size:1.9rem}
@@ -694,4 +700,9 @@ gap:22px}
 .nav a{font-size:.875rem}
 .result-stats small{font-size:.75rem}
 .stat-top .tag{font-size:.75rem}
+.photo-frame img{height:235px}
+.gallery img,.gallery .wide img{height:175px}
+.project-feature img{height:260px}
+.timeline img{height:185px}
+.sidebar-photo img{height:210px}
 }
