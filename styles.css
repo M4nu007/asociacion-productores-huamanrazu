@@ -699,3 +699,10 @@ gap:22px}
 /* Fotografía lateral compacta, como en las tarjetas de Figma. */
 .sidebar-photo img{height:190px;aspect-ratio:auto;object-fit:cover}
 @media(max-width:760px){.sidebar-photo img{height:180px}}
+
+/* Inicio: alturas de tarjetas compactas como antes. */
+.photo-frame img{height:260px;aspect-ratio:auto;object-fit:cover}
+.gallery img{height:220px;aspect-ratio:auto;object-fit:cover}
+.gallery .wide img{height:250px;aspect-ratio:auto}
+.campaign-poster img{height:560px;aspect-ratio:auto;object-fit:contain}
+@media(max-width:760px){.photo-frame img{height:235px}.gallery img,.gallery .wide img{height:175px}.campaign-poster img{height:auto;max-height:580px}}
