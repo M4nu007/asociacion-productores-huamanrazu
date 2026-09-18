@@ -221,7 +221,16 @@ margin-bottom:20px}
 .icon-box{background:var(--mint);
 color:var(--green);
 padding:7px 12px;
-font-size:25px}
+font-size:25px;
+width:42px;
+height:42px;
+display:grid;
+place-items:center}
+.icon-box-rust{background:#f7ddd5}
+.icon-box img{width:21px;
+height:21px;
+filter:invert(17%) sepia(29%) saturate(1123%) hue-rotate(105deg) brightness(85%) contrast(98%)}
+.icon-box-rust img{filter:invert(38%) sepia(32%) saturate(1392%) hue-rotate(332deg) brightness(91%) contrast(91%)}
 .card p{font-size:15px}
 .card-bottom{display:flex;
 justify-content:space-between;
@@ -272,6 +281,25 @@ letter-spacing:0}
 .site-footer a:hover{text-decoration:underline}
 .footer-links{display:grid;
 gap:10px}
+.footer-links a{display:flex;
+align-items:center;
+gap:6px}
+.footer-links img{width:12px;
+height:12px}
+.site-footer img:not(.brand-logo){filter:invert(83%) sepia(22%) saturate(621%) hue-rotate(89deg) brightness(104%) contrast(92%)}
+.footer-meta{display:flex;
+flex-wrap:wrap;
+gap:10px 20px;
+font-weight:600}
+.footer-meta span,.footer-contact{display:flex;
+align-items:flex-start;
+gap:7px}
+.footer-meta img,.footer-contact img{width:14px;
+height:14px;
+flex:0 0 14px;
+margin-top:2px}
+.footer-contact{margin:12px 0}
+.footer-whatsapp{align-items:center}
 .copyright{margin-top:32px;
 padding-top:20px;
 border-top:1px solid #ffffff20;
