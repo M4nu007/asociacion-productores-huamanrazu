@@ -707,3 +707,4 @@ gap:22px}
 .campaign-poster img{height:560px;aspect-ratio:auto;object-fit:contain}
 @media(max-width:760px){.photo-frame img{height:235px}.gallery img,.gallery .wide img{height:175px}.campaign-poster img{height:auto;max-height:580px}}
 .gps-icon{text-decoration:none;display:inline-flex;align-items:center}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.stat-icon{width:24px;height:24px;filter:invert(18%) sepia(24%) saturate(1164%) hue-rotate(104deg) brightness(88%) contrast(94%)}.gps-icon .stat-icon{display:block}
