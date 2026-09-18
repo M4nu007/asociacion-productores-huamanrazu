@@ -624,18 +624,6 @@ letter-spacing:-.04em}
 .hero-strip small{font-size:12px}
 .hero-strip p{font-size:13px;
 margin:10px 0 0}
-.team-grid{display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:13px}
-.team-grid article{padding:17px;
-background:var(--blue);
-font-size:13px}
-.team-grid strong{display:block;
-color:var(--green);
-font-size:14px}
-.team-grid .eyebrow{font-size:10px}
-.team-grid p{margin:8px 0 0;
-font-size:13px}
 .sidebar-photo{margin:0 0 20px;
 background:var(--green);
 color:#fff}
@@ -812,7 +800,7 @@ margin-top:14px}
 .hero-strip .container{grid-template-columns:1fr 1fr;
 gap:22px}
 .hero-strip strong{font-size:1.9rem}
-.governance,.team-grid{grid-template-columns:1fr 1fr}
+.governance{grid-template-columns:1fr 1fr}
 .audit-grid{grid-template-columns:1fr 1fr}
 .result-stats{gap:10px}
 .result-stats>div{padding:15px 8px}
@@ -830,7 +818,7 @@ gap:22px}
 *{transition:none!important}
 }
 
-.tag,.badge,.brand small,.eyebrow,.accreditations>p,.technical small,.year,.team-grid .eyebrow,.audit-grid small,.funding-labels,.hero-strip small{font-size:.75rem}
+.tag,.badge,.brand small,.eyebrow,.accreditations>p,.technical small,.year,.audit-grid small,.funding-labels,.hero-strip small{font-size:.75rem}
 .brand small{letter-spacing:.025em}
 .stats .note{font-size:.75rem}
 .nav a{font-size:.875rem}
