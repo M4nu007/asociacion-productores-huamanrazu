@@ -706,3 +706,4 @@ gap:22px}
 .gallery .wide img{height:250px;aspect-ratio:auto}
 .campaign-poster img{height:560px;aspect-ratio:auto;object-fit:contain}
 @media(max-width:760px){.photo-frame img{height:235px}.gallery img,.gallery .wide img{height:175px}.campaign-poster img{height:auto;max-height:580px}}
+.gps-icon{text-decoration:none;display:inline-flex;align-items:center}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
