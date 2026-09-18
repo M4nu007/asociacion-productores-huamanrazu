@@ -748,6 +748,38 @@ font-size:11px}
 margin-top:25px;
 background:#25764d;
 border-color:#25764d}
+
+/* Ficha compacta del proyecto principal */
+.dossier-tag{display:inline-flex;align-items:center;gap:6px}
+.dossier-tag img,.project-duration img,.budget-heading img,.budget-list h3 img,.budget-dimensions img{width:14px;height:14px;object-fit:contain}
+.project-dossier{padding:28px}
+.project-dossier .project-feature{grid-template-columns:minmax(0,1.45fr) minmax(300px,.95fr);gap:0}
+.project-main{padding:0 28px 0 0}
+.project-main .badges{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.project-main .badges .tag{font-size:10px;padding:5px 7px}
+.project-duration{display:inline-flex;align-items:center;gap:5px;background:transparent;padding-left:0!important}
+.project-main h2{font-size:1.6rem;max-width:620px;margin:17px 0 10px}
+.project-main>p{font-size:13px;line-height:1.65;margin-bottom:18px}
+.project-photo{position:relative;margin:0;border:1px solid #d5dfec}
+.project-photo>img{display:block;width:100%;height:250px;aspect-ratio:auto;object-fit:cover;object-position:center 63%}
+.project-photo .photo-label,.project-photo .photo-altitude{position:absolute;top:12px;background:rgba(8,54,40,.88);color:white;padding:6px 9px;font-size:10px;font-weight:700}
+.project-photo .photo-label{left:12px;display:flex;align-items:center;gap:5px}.project-photo .photo-label img{width:13px;height:13px;filter:brightness(0) invert(1)}
+.project-photo .photo-altitude{top:auto;right:10px;bottom:42px;background:rgba(9,27,23,.78)}
+.project-photo figcaption{background:#e8eefb;padding:10px 12px;color:var(--ink);font-size:11px}.project-photo figcaption strong{color:var(--rust)}
+.project-dossier .technical{grid-template-columns:repeat(3,1fr);gap:0;margin:16px 0 10px}
+.project-dossier .technical>div{padding:12px;border-right:1px solid white}
+.project-dossier .technical small{font-size:9px;color:#34544b}
+.project-dossier .technical strong{display:flex;align-items:center;gap:5px;font-size:15px;text-transform:capitalize;margin:4px 0}
+.project-dossier .technical strong img{width:16px;height:16px;object-fit:contain}
+.project-dossier .technical span{display:block;font-size:9px;line-height:1.35}
+.ods-row{display:flex;align-items:center;gap:7px;font-size:9px;text-transform:uppercase}.ods-row small{margin-right:5px}.ods-row span{background:#48a76e;color:white;padding:4px 8px;font-weight:700}
+.feature-budget{padding:28px 26px;display:flex;flex-direction:column;align-self:stretch}
+.budget-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}.budget-heading .eyebrow{display:flex;align-items:center;gap:6px;color:var(--green);font-weight:700}.budget-heading .tag{font-size:9px}
+.budget-total{display:flex;align-items:end;justify-content:space-between;background:white;padding:17px 14px 10px;gap:10px}.budget-total span{font-size:11px}.budget-total strong{font:700 1.7rem Georgia;color:var(--green);white-space:nowrap}
+.feature-budget .funding-bar{margin:0 14px 18px;height:7px}
+.budget-list{background:white;padding:18px 16px}.budget-list h3{display:flex;align-items:center;gap:6px;margin:0 0 10px;font:700 11px 'Segoe UI',sans-serif;text-transform:uppercase}.budget-list h3 span{margin-left:auto;color:var(--rust);font-size:9px}.budget-list .detail-list{font-size:11px;line-height:1.3;padding-left:18px}.budget-list .detail-list li{margin:7px 0}
+.budget-dimensions{display:flex;align-items:center;gap:6px;margin-top:14px;padding:9px;background:#f3f6fb;font-size:9px}.budget-dimensions span{margin-left:auto}
+.budget-contact{margin-top:auto;padding-top:25px}.feature-budget .budget-contact .button{margin-top:0;justify-content:center;align-items:center;gap:7px;background:#3fd16e;border-color:#3fd16e}.budget-contact .button img{width:15px;height:15px;filter:brightness(0) invert(1)}
 .result-stats{display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:22px;
@@ -807,6 +839,7 @@ gap:22px}
 .result-stats strong{font-size:1.65rem}
 .result-stats small{font-size:11px}
 .feature-budget{padding:22px}
+.project-dossier{padding:18px}.project-dossier .project-feature{grid-template-columns:1fr}.project-main{padding:0}.project-main h2{font-size:1.45rem}.project-photo>img{height:220px}.project-dossier .technical{grid-template-columns:1fr}.project-dossier .technical>div{border-right:0;border-bottom:1px solid white}.feature-budget{margin-top:22px;min-height:520px}.budget-total{align-items:center}.budget-total strong{font-size:1.4rem}.ods-row{flex-wrap:wrap}
 .audit{padding:23px}
 .campaign .callout{padding:18px}
 .governance article{padding:18px}
